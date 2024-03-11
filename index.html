@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Olá, somos o Partido Democrático Trabalhista, sejam bem-vindos!">
+
+  <link rel="icon" type="image/png" href="./src/img/img-projects/icon.png"/>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  <link rel="stylesheet" href="./src/css/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./src/css/index.css">
+  <link rel="stylesheet" href="./src/css/responsive.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+  <link rel="stylesheet" href="./src/css/magnific-popup.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="./src/js/jquery.magnific-popup.js"></script>
+
+  <title>Seja PDT!</title>
+</head>
+
+<body>
+  <header class="header-content">
+
+    <!--- MENU NAVBAR --->
+    <nav class="nav-bar">
+      <div class="max-width">
+        <div class="logo">
+          <a href="#"><img src="./src/img/img-projects/logo.png" alt="Nature" width="130" height="80"></a>
+        </div>
+
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Início</a></li>
+          <li><a href="#about" class="menu-btn">Sobre</a></li>
+          <li><a href="#contact" class="menu-btn">Cadastro</a></li>
+        </ul>
+
+        <!-- icon menu responsive -->
+        <div class="menu-btn">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  
+  <main class="main-content">
+
+    <!--- HOME SECTION --->
+    <section class="home section" id="home">
+      <div class="max-width">
+        <div class="home-content">
+
+          <div class="text-1">Faça Parte do Partido Democrático Trabalhista</div>
+
+        </div>
+
+         <div class="social-media">
+            <a href="https://www.facebook.com/pdt.jaguaraooficial" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+          <div class="overlay"></div>
+      </div>
+    </section>
+
+
+    <!--- ABOUT SECTION --->
+    <section class="about section" id="about" aria-label="uma seção falando sobre a história do PDT.">
+      <div class="max-width" data-aos="fade-down">
+        <h2 class="title">Sobre</h2>
+
+        <div class="about-content">
+          <div class="column left">
+            <img src="./src/img/img-projects/rosa.jpeg" alt="imagem logo do PDT.">
+          </div>
+
+          <div class="column right">
+            <div class="text">
+              Quem pode ser <span>PDT</span>
+            </div>
+
+              <p >
+                Qualquer homem ou mulher que se disponha a lutar por uma sociedade democrática, 
+                plural e solidária pode se filiar ao PDT, desde que já tenha completado 16 anos de idade, goze de plenos direitos políticos, 
+                não esteja filiado a outro partido e possua domicílio eleitoral no mesmo município em que queira se filiar.
+              <br> 
+                Para se filiar ao Partido Democrático Trabalhista você pode solicitar sua filiação a qualquer filiado ou filiada; 
+                em qualquer Diretório do Partido; ou, preenchendo o cadastro a seguir.
+              <Br>
+                Depois de preenchido o formulário, nós avisaremos da sua efetivação através de email enviado para o seu endereço informado.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </section> 
+
+    <!--- CONTACT SECTION --->
+    <section class="contact section" id="contact" aria-label="uma seção falando se interessou com o meu trabalho, entrar em contato.">
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Filia-se!</h2>
+        </div>
+
+        <div class="column right" data-aos="fade-up">
+
+          <form id="meuFormulario" method="POST" action="https://formsubmit.co/guilhermesul2016@outlook.com" class="input-area">
+            <div class="fields">
+              <div class="radio">
+                <input type="radio" id="filiado" name="Tipo" value="Filiado" checked />
+                <label for="filiado">Filiado</label>
+              </div>
+            
+              <div class="radio">
+                <input type="radio" id="apoiador" name="Tipo" value="Apoiador" />
+                <label for="apoiador">Apoiador</label>
+              </div>  
+            </div> 
+            <div class="fields">
+              <div class="field name">
+                <input type="text" name="nome" placeholder="Nome Completo" required>
+              </div>
+              <div class="field titulo">
+                <input type="text" name="titulo" placeholder="Título de Eleitor" required>
+              </div> 
+            </div> 
+            <div class="fields">
+              <div class="field zona">
+                <input type="text" name="zona" placeholder="Zona" required>
+              </div>
+              <div class="field secao">
+                <input type="text" name="secao" placeholder="Seção" required>
+              </div> 
+            </div> 
+            <div class="fields">
+              <div class="field data">
+                <input type="text" name="data" placeholder="Data de Nascimento" required>
+              </div>
+              <div class="field rg">
+                <input type="text" name="rg" placeholder="RG" required>
+              </div> 
+            </div> 
+            <div class="fields">
+              <div class="field cpf">
+                <input type="text" name="cpf" placeholder="CPF" required>
+              </div>
+              <div class="field endereco">
+                <input type="text" name="endereco" placeholder="Cidade, bairro, rua, número" required>
+              </div> 
+            </div> 
+            <div class="fields">
+              <div class="field telefone">
+                <input type="text" name="telefone" placeholder="Telefone" required>
+              </div>
+              <div class="field email">
+                <input type="email" name="email" placeholder="Email" required>
+              </div> 
+            </div>
+            <div class="button">
+              <button type="button" onclick="enviarFormulario()">Enviar</button> 
+            </div> 
+            <input type="hidden" name="_subject" value="Cadastro Concluído!">
+          </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!--- FOOTER --->
+  <footer> 
+    <span>Desenvolvido por <a href="https://guizaumnr-portfolio.netlify.app/#">Guilherme Rodrigues</a> | <span class="far fa-copyright"></span><span> 2024 todos os direitos reservados</span>
+  </footer>
+
+  <script>
+    function enviarFormulario() {
+      var formulario = document.getElementById('meuFormulario');
+      // Envie o formulário
+      formulario.submit();
+    }
+  </script>
+
+  <!--- SCROLL UP --->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up"></i>
+  </a>
+
+
+  <!--- PARTICLES JS --->
+  <script src="./src/js/particles.js"></script>
+  <script src="./src/js/app-particles.js"></script>
+
+  <!--- SWIPER JS --->
+  <script src="./src/js/swiper-bundle.min.js"></script>
+
+  <!--- MAIN JS --->
+  <script src="./src/js/main.js"></script>
+
+  <!--- SCRIPT ANIMATION --->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+  AOS.init({
+  offset: 400,
+  duration: 1800,
+  });
+  </script>
+
+</body>
+</html>
