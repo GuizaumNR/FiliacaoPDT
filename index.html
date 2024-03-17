@@ -99,71 +99,109 @@
       </div>
     </section> 
 
-    <!--- CONTACT SECTION --->
-    <section class="contact section" id="contact" aria-label="uma seção falando se interessou com o meu trabalho, entrar em contato.">
+    <!--- Apoiadores SECTION --->
+    <section class="contact section" id="contact" aria-label="Uma seção para apoiadores se cadastrarem.">
       <div class="max-width">
         <div data-aos="fade-down">
-          <h2 class="title">Filia-se!</h2>
+          <h2 class="title">Apoiador</h2>
+        </div>
+
+        <div class="column right" data-aos="fade-up">
+
+          <form id="meuFormulario" method="POST" action="https://formsubmit.co/guilhermesul2016@outlook.com" class="input-area">
+        
+            <div class="fields">
+              <div class="field name">
+                <input type="text" name="Nome" placeholder="Nome Completo" required>
+              </div>
+              <div class="field dataa">
+                <input type="text" name="Nascimento" placeholder="Data de Nascimento" required>
+              </div> 
+            </div> 
+            
+            <div class="fields">
+              <div class="field telefone">
+                <input type="text" name="Telefone" placeholder="Telefone" required>
+              </div>
+              <div class="field email">
+                <input type="email" name="Email" placeholder="Email" required>
+              </div> 
+            </div>
+
+            <div class="fields">
+              <div class="field bairro">
+                <input type="text" name="Bairro" placeholder="Bairro" required>
+              </div>
+              <div class="field endereco">
+                <input type="text" name="Endereco" placeholder="Endereço" required>
+              </div> 
+              </div>
+            
+            <div class="button">
+              <button type="button" onclick="enviarFormulario()">Enviar</button> 
+            </div> 
+            <input type="hidden" name="_subject" value="Novo Apoiador!">
+          </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--- FILIADOS SECTION --->
+    <section class="contact section" id="contact" aria-label="Uma seção para cadastro de filiados">
+      <div class="max-width">
+        <div data-aos="fade-down">
+          <h2 class="title">Filiado</h2>
         </div>
 
         <div class="column right" data-aos="fade-up">
 
           <form id="meuFormulario" method="POST" action="https://formsubmit.co/guilhermesul2016@outlook.com" class="input-area">
             <div class="fields">
-              <div class="radio">
-                <input type="radio" id="filiado" name="tipo" value="Filiado" checked />
-                <label for="filiado">Filiado</label>
-              </div>
-            
-              <div class="radio">
-                <input type="radio" id="apoiador" name="tipo" value="Apoiador" />
-                <label for="apoiador">Apoiador</label>
-              </div>  
-            </div> 
-            <div class="fields">
               <div class="field name">
-                <input type="text" name="nome" placeholder="Nome Completo" required>
+                <input type="text" name="Nome" placeholder="Nome Completo" required>
               </div>
               <div class="field titulo">
-                <input type="text" name="titulo" placeholder="Título de Eleitor" required>
+                <input type="text" name="Titulo" placeholder="Título de Eleitor" required>
               </div> 
             </div> 
             <div class="fields">
               <div class="field zona">
-                <input type="text" name="zona" placeholder="Zona" required>
+                <input type="text" name="Zona" placeholder="Zona" required>
               </div>
               <div class="field secao">
-                <input type="text" name="secao" placeholder="Seção" required>
+                <input type="text" name="Secao" placeholder="Seção" required>
               </div> 
             </div> 
             <div class="fields">
               <div class="field data">
-                <input type="text" name="data" placeholder="Data de Nascimento" required>
+                <input type="text" name="Nascimento" placeholder="Data de Nascimento" required>
               </div>
               <div class="field rg">
-                <input type="text" name="rg" placeholder="RG" required>
+                <input type="text" name="Rg" placeholder="RG" required>
               </div> 
             </div> 
             <div class="fields">
               <div class="field cpf">
-                <input type="text" name="cpf" placeholder="CPF" required>
+                <input type="text" name="Cpf" placeholder="CPF" required>
               </div>
               <div class="field endereco">
-                <input type="text" name="endereco" placeholder="Cidade, bairro, rua, número" required>
+                <input type="text" name="Endereco" placeholder="Endereço" required>
               </div> 
             </div> 
             <div class="fields">
               <div class="field telefone">
-                <input type="text" name="telefone" placeholder="Telefone" required>
+                <input type="text" name="Telefone" placeholder="Telefone" required>
               </div>
               <div class="field email">
-                <input type="email" name="email" placeholder="Email" required>
+                <input type="email" name="Email" placeholder="Email" required>
               </div> 
             </div>
             <div class="button">
               <button type="button" onclick="enviarFormulario()">Enviar</button> 
             </div> 
-            <input type="hidden" name="_subject" value="Cadastro Concluído!">
+            <input type="hidden" name="_subject" value="Novo Filiado!">
           </form>
             </div>
           </div>

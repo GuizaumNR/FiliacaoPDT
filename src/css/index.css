@@ -616,6 +616,7 @@ section .title::after {
 
 
 /* ============= CONTACT SECTION ============= */
+
 .contact .title::after {
   content: "cadastro";
   color: var(--color-purple-light);
@@ -675,6 +676,9 @@ section .title::after {
   border: 2px solid var(--color-purple-light);
 }
 
+.contact .right{
+  margin-top: 100px;
+}
 
 .contact .right form .fields {
   display: flex;
@@ -714,6 +718,14 @@ section .title::after {
 }
 
 .contact .right form .data {
+  margin-right: 10px;
+}
+
+.contact .right form .dataa {
+  margin-left: 10px;
+}
+
+.contact .right form .bairro {
   margin-right: 10px;
 }
 
